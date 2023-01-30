@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: antiquewhite;
+    /* display: flex; */
+    /* justify-content: space-between;
+    align-items: center; */
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 29px;
+}
+.primary{
+    background-color: violet;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+.navbar {}
+
+.navigation {
+    display: flex;
+    margin-right: 100px;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.navigation li {
+    margin: 20px;
+    list-style: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.navigation li a:hover {
+    background-color: bisque;
+}
+.home::before{
+    content: "";
+    background: url('../img/repaire.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+.home .main{
+    font-size: 40px;
+    padding: 100px;
+    /* background-color: blueviolet;   */
+}
+
+.home .main button{
+    font-size: 30px;
+    padding: 10px;
+    border: 1px solid bisque;
+    border-radius: 14px;
+    margin: 20px 0px;
+    cursor: pointer;
+    background: none;
+}
+
+.middle{
+    /* background-color: aqua; */
+    height: 330px;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.middle h1,p
+{
+    font-size: 30px;
+    /* padding: 20px; */
+}
+.line{
+    height: 10px;
+    width: 70px;
+    background-color: blue;
+}
+
+.repaire-sections{
+    display: flex;
+}
+.repaire-sections .first, .second, .third{
+    /* border: 2px solid blue; */
+    margin: 40px 10px;
+    text-align: center;
+    padding: 30px;
+    box-shadow:inset 0px 0px 10px 6px blue;
+}
